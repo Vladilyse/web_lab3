@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.box{
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+} 
+.box i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.header{
+    min-height: 90px;
+    margin-bottom: 50px;
+}
+.promo{
+    min-height: 460px;
+    margin-bottom: 50px;
+}
+.fonts{
+    min-height: 90px;
+    /* margin-bottom: 50px; */
+    /* text-align: center; */
+}
+.item{
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+.foto{
+    min-height: 250px;
+    margin-bottom: 50px;
+}
+.footer{
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+.box1{
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+.box1 a{
+    font-size: 20px;
+    color: black;
+}
+.box1 a:hover{
+    color: rgb(36, 36, 36);
+    border-bottom: 1px solid gray;
+}
+.link1{
+    background-color: greenyellow;
+    border: 1px solid black;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.link1 a{
+    display: block;
+    width: 90px;
+}
+.link1:hover{
+    background-color: rgb(146, 240, 4);
+}
+.link1 a:hover{
+    border-bottom: none;
+}
+.link2{
+    background-color: rgb(62, 195, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    border-radius: 80px;
+    width: 120px;
+}
+.link2:hover{
+    background-color: rgb(27, 185, 233) ;
+}
+.link2 a:hover{
+    border-bottom: none;
+}
+.link2 a{
+    display: block;
+    width: 120px;
+    line-height: 40px;
+}
+.start{
+    width: 130px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 30px;
+    margin: auto;
+    background-color: rgb(82, 200, 236);
+}
+.start a{
+    display: block;
+    line-height: 50px;
+    width: 130px;
+    color: black;
+}
+.start:hover{
+    background-color: rgb(39, 162, 199);
+}
+.box1_1 a{
+    color: black;
+}
+.box1_1{
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+}
+.box2{
+    font-family: 'Rye', cursive;
+    font-size: 30px;
+}
+.box3 a{
+    color: black;
+}
+.box3{
+    font-size: 30px;
+    font-family: 'Skranji', cursive;
+}
+.box4 a{
+    color: black;
+}
+.box4{
+    font-size: 30px;
+    font-family: 'Bungee Inline', cursive;
+}
+.box5 a{
+    color: black;
+}
+.box5{
+    font-size: 30px;
+    font-family: 'Bungee Shade', cursive;
+}
+.box6 a{
+    color: black;
+}
+.box6{
+    font-size: 30px;
+    font-family: 'Inknut Antiqua', serif;
+}
+.box2 a{
+    color: black;
+}
+.fonts{
+    background-color: rgb(218, 214, 214);
+    
+}
+h3{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.item .col-md-4{
+    min-height: 300px;
+    cursor: pointer;
+}
+.buy{
+    width: 110px;
+    height: 40px;
+    border: 2px solid rgb(56, 147, 177);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.buy:hover{
+    background-color: rgb(97, 194, 226);
+    color: black;
+}
+.col-md-4:hover{
+    border: 2px solid rgb(56, 147, 177);
+}
+img{
+    width: 300px;
+    height: 400px;
+}
+.foto .col-md-3 p{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+}
+.p1{
+    text-align: left;
+}
+.p2{
+    /* margin-right: 120px; */
+    text-align: left;
+}
+.p3{
+    text-align: left;
+}
+.p4{
+    text-align: left;
+}
+.p5{
+    text-align: left;
+}
+.footer .col-md-8 .img_1{
+    width: 30px;
+    height: 40px;
+    margin-right: 10px;
+}
+.footer .col-md-8 .img_2{
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+}
+.footer .col-md-8 .img_3{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.footer .col-md-8 p{
+    font-size: 14px;
+}
+.inp{
+   width: 450px; 
+   margin-bottom: 10px;
+}
+input{
+    width: 40px;
+}
+.acc{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(56, 147, 177);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.acc:hover{
+    background-color: rgb(95, 173, 199);
+}
+.p_0{
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+}
+.inputing{
+    width: 200px;
+}
